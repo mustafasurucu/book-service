@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: book-service
+
+down-stream-services:
+  book-name-service-url: http://localhost:8081/book-name
+  book-author-service-url: http://localhost:8082/book-author
+
